@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author TOSHIBA
+ * @author Cris
  */
 public class Ejer1Suma {
 
@@ -24,6 +24,8 @@ public class Ejer1Suma {
         num1=leer.nextInt();
         num2=leer.nextInt();
         System.out.println("la suma da: " + (num1+num2));
+
+	System.out.println("Hola Daniel!");
     }
     
 }
