@@ -21,12 +21,26 @@ public class RemplazarVocales {
         String retorno;
         //String frase = "";
         //String fraseCod = "";
-        Scanner leer = new Scanner (System.in);
+        Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese una letra, palabra o caracter");
         lectura = leer.nextLine();
         lectura = lectura.toLowerCase(); //toLowerCase es para pasar todo a minusculas
-        retorno = codificar(lectura);
+        retorno = nuevaCadena(lectura);
         System.out.println(retorno);
+    }
+
+    public static String nuevaCadena(String palabra) {
+        String nuevaCadena;
+        nuevaCadena = palabra.replace('a', '@');
+        nuevaCadena = nuevaCadena.replace('e', '#');
+        nuevaCadena = nuevaCadena.replace('E', '#');
+        nuevaCadena = nuevaCadena.replace('i', '$');
+        nuevaCadena = nuevaCadena.replace('i', '$');
+        nuevaCadena = nuevaCadena.replace('o', '%');
+        nuevaCadena = nuevaCadena.replace('O', '%');
+        nuevaCadena = nuevaCadena.replace('u', '*');
+        nuevaCadena = nuevaCadena.replace('U', '*');
+        return nuevaCadena;
     }
 
     //subprograma para codificar la frase
@@ -78,4 +92,3 @@ public class RemplazarVocales {
 
     }
 }
-    
