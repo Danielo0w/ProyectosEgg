@@ -26,6 +26,7 @@ public class RemplazarVocales {
         lectura = leer.nextLine();
         lectura = lectura.toLowerCase(); //toLowerCase es para pasar todo a minusculas
         retorno = nuevaCadena(lectura);
+        //retorno= codificar(lectura)
         System.out.println(retorno);
     }
 

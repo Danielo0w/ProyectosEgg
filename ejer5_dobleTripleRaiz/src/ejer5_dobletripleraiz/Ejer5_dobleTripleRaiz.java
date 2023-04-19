@@ -22,8 +22,7 @@ public class Ejer5_dobleTripleRaiz {
         double num=leer.nextDouble();
         System.out.println("El doble de " + num + " es " + (num*2));
         System.out.println("El triple de " + num + " es " + (num*3));
-        System.out.println("HOLAA");
-
+        System.out.println("El triple de " + num + " es " + Math.sqrt(num));
     }
     
 }
